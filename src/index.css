@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Fredoka", ui-sans-serif, system-ui, sans-serif;
+  
+  /* Red Branding */
+  --color-brand-50: #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-200: #fecaca;
+  --color-brand-300: #fca5a5;
+  --color-brand-400: #f87171;
+  --color-brand-500: #ef4444;
+  --color-brand-600: #dc2626;
+  --color-brand-700: #b91c1c;
+  --color-brand-800: #991b1b;
+  --color-brand-900: #7f1d1d;
+
+  /* Black/Dark Accent */
+  --color-accent-50: #f6f6f6;
+  --color-accent-100: #e7e7e7;
+  --color-accent-200: #d1d1d1;
+  --color-accent-300: #b0b0b0;
+  --color-accent-400: #888888;
+  --color-accent-500: #111111;
+  --color-accent-600: #000000;
+
+  /* Playful Additional Colors */
+  --color-play-yellow: #fcd34d;
+  --color-play-blue: #7dd3fc;
+  --color-play-green: #6ee7b7;
+  --color-play-purple: #c084fc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #fafafa;
+    color: #333333;
+    background-image: radial-gradient(#fee2e2 2px, transparent 2px);
+    background-size: 30px 30px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: #111111;
+  }
+}
+

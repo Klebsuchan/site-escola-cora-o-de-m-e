@@ -1,0 +1,8 @@
+{
+  "name": "escola de educação infantil coração de mãe Passo Fundo",
+  "description": "Escola de Educação infantil de Passo Fundo",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
