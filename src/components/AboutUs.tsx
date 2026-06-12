@@ -55,7 +55,7 @@ export default function AboutUs() {
                 className="w-48 h-48 sm:w-56 sm:h-56 object-cover rounded-full border-[8px] border-white shadow-lg relative z-10 transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 font-heading mb-2">Diretoria</h3>
+            <h3 className="text-2xl font-bold text-gray-900 font-heading mb-2">Idimara Kleber</h3>
             <p className="text-brand-600 font-bold uppercase tracking-wider text-xs mb-4 bg-brand-100 px-4 py-1.5 rounded-full inline-block">Proprietária & Diretora</p>
             <p className="text-gray-600 px-4 leading-relaxed font-medium">
               Com o compromisso de garantir que cada criança se sinta amada. É o coração que inspira toda a equipe a proporcionar o melhor ambiente.
@@ -77,7 +77,7 @@ export default function AboutUs() {
                 className="w-48 h-48 sm:w-56 sm:h-56 object-cover rounded-full border-[8px] border-white shadow-lg relative z-10 transform group-hover:scale-105 transition-transform duration-500"
               />
             </div>
-            <h3 className="text-2xl font-bold text-gray-900 font-heading mb-2">Coordenação</h3>
+            <h3 className="text-2xl font-bold text-gray-900 font-heading mb-2">Sabrina Mello</h3>
             <p className="text-blue-600 font-bold uppercase tracking-wider text-xs mb-4 bg-blue-100 px-4 py-1.5 rounded-full inline-block">Coordenadora Pedagógica</p>
             <p className="text-gray-600 px-4 leading-relaxed font-medium">
               Responsável por planejar e orientar nosso ensino de excelência, zelando pelo desenvolvimento cognitivo, motor e social diariamente.

@@ -8,7 +8,7 @@ const services = [
     icon: Blocks
   },
   {
-    title: 'Segurança Total',
+    title: 'Segurança',
     description: 'Monitoramento por câmeras em todos os ambientes e controle rigoroso de acesso com portaria.',
     icon: ShieldPlus
   },

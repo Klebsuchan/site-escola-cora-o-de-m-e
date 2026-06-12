@@ -19,7 +19,7 @@ export default function Contact() {
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
             >
-              <div className="mb-4 inline-flex items-center bg-white text-play-green px-6 py-2 rounded-full text-sm font-heading font-black uppercase tracking-widest shadow-sm transform -rotate-2 border-2 border-play-green/30">
+              <div className="mb-4 inline-flex items-center bg-white text-black px-6 py-2 rounded-full text-sm font-heading font-black uppercase tracking-widest shadow-sm transform -rotate-2 border-2 border-play-green/30">
                  <span className="text-xl mr-2">🎈</span> Venha Brincar!
               </div>
               <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-black text-gray-900 mb-4 sm:mb-6 mt-2 sm:mt-4 leading-tight">

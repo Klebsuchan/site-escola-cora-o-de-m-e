@@ -47,9 +47,9 @@ export default function Footer() {
             </p>
             <div className="flex flex-col space-y-3 mt-4 items-center md:items-start">
               <p className="text-white font-heading font-bold text-sm md:text-base">Nos siga para mais informações!</p>
-              <motion.a whileHover={{ scale: 1.05, y: -2 }} href="https://www.instagram.com/coracaodemaepf/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 p-3 px-6 rounded-full text-white shadow-md hover:shadow-xl transition-all border-2 border-white/20">
+              <motion.a whileHover={{ scale: 1.05, y: -2 }} href="https://www.instagram.com/escola_coracaodemae?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 p-3 px-6 rounded-full text-white shadow-md hover:shadow-xl transition-all border-2 border-white/20">
                 <Instagram className="w-6 h-6 stroke-[2.5]" />
-                <span className="font-bold tracking-wide">@coracaodemaepf</span>
+                <span className="font-bold tracking-wide">@escola_coracaodemae</span>
               </motion.a>
             </div>
           </motion.div>
