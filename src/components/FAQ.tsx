@@ -33,7 +33,14 @@ export default function FAQ() {
   };
 
   return (
-    <section id="faq" className="py-24 bg-gradient-to-r from-gray-900 to-red-900 relative overflow-hidden">
+    <motion.section 
+      id="faq" 
+      className="py-24 bg-gradient-to-r from-gray-900 to-red-900 relative overflow-hidden"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       {/* Decorative Blobs */}
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-red-500 rounded-full mix-blend-multiply opacity-20 blur-[80px]"></div>
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-red-700 rounded-full mix-blend-multiply opacity-20 blur-[70px]"></div>
@@ -108,6 +115,6 @@ export default function FAQ() {
           })}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BookOpen, Smile, Blocks, Music, Puzzle, Heart, ShieldPlus } from 'lucide-react';
+import { BookOpen, Smile, Blocks, Music, Puzzle, Heart, ShieldPlus, Shirt } from 'lucide-react';
 
 const services = [
   {
@@ -37,6 +37,11 @@ const services = [
     description: 'Registro diário das rotinas, alimentação e evolução da criança repassado através do aplicativo da escola.',
     icon: Puzzle,
     imageIcon: '/minha-escola.jpg'
+  },
+  {
+    title: 'Uso de Uniforme',
+    description: 'Uso de uniforme obrigatório para crianças e profissionais, garantindo segurança, praticidade e igualdade.',
+    icon: Shirt
   }
 ];
 
@@ -76,7 +81,14 @@ export default function Services() {
   };
 
   return (
-    <section id="servicos" className="py-24 relative overflow-hidden bg-white mt-12 sm:mt-0">
+    <motion.section 
+      id="servicos" 
+      className="py-24 relative overflow-hidden bg-white mt-12 sm:mt-0"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       {/* Playful top wave */}
       <div className="absolute top-0 left-0 w-full overflow-hidden leading-none transform -scale-y-100 mb-12 hidden sm:block">
         <svg fill="#fafafa" viewBox="0 0 1200 120" preserveAspectRatio="none" className="w-full h-8 sm:h-12 lg:h-16">
@@ -155,6 +167,6 @@ export default function Services() {
           })}
         </motion.div>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -7,7 +7,10 @@ import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
+import Values from './components/Values';
+import Methodology from './components/Methodology';
 import Services from './components/Services';
+import Uniforms from './components/Uniforms';
 import Gallery from './components/Gallery';
 import FAQ from './components/FAQ';
 import Testimonials from './components/Testimonials';
@@ -16,6 +19,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import ScrollToTop from './components/ScrollToTop';
+import CookieConsent from './components/CookieConsent';
 import { motion } from 'motion/react';
 
 export default function App() {
@@ -26,6 +30,8 @@ export default function App() {
         <Hero />
         
         <AboutUs />
+        <Values />
+        <Methodology />
 
         {/* Playful About Section */}
         <section id="sobre" className="py-24 relative overflow-hidden bg-gradient-to-r from-gray-900 to-red-900 rounded-[3rem] my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 shadow-[0_8px_30px_rgb(0,0,0,0.2)]">
@@ -103,6 +109,7 @@ export default function App() {
         </section>
 
         <Services />
+        <Uniforms />
         <Gallery />
         <Testimonials />
         <Partners />
@@ -112,6 +119,7 @@ export default function App() {
       <Footer />
       <FloatingWhatsApp />
       <ScrollToTop />
+      <CookieConsent />
     </div>
   );
 }

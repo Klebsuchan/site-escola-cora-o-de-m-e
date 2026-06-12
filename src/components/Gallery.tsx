@@ -31,7 +31,14 @@ export default function Gallery() {
   const colors = ['bg-play-yellow/20', 'bg-play-blue/20', 'bg-play-green/20', 'bg-play-purple/20', 'bg-brand-50'];
 
   return (
-    <section id="galeria" className="py-24 bg-repeat relative overflow-hidden bg-gradient-to-r from-gray-900 to-red-900">
+    <motion.section 
+      id="galeria" 
+      className="py-24 bg-repeat relative overflow-hidden bg-gradient-to-r from-gray-900 to-red-900"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+PHBhdGggZD0iTTEyIDJhMTAgMTAgMCAxIDEwIDEwQTEwIDEwIDAgMCAxIDEyIDJ6IiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDUpIi8+PC9zdmc+')] mix-blend-overlay opacity-30"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
@@ -123,6 +130,6 @@ export default function Gallery() {
           </motion.div>
         )}
       </AnimatePresence>
-    </section>
+    </motion.section>
   );
 }

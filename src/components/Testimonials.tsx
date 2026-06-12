@@ -119,7 +119,14 @@ const reviews = [
 
 export default function Testimonials() {
   return (
-    <section id="avaliacoes" className="py-24 bg-play-yellow/10 relative overflow-hidden">
+    <motion.section 
+      id="avaliacoes" 
+      className="py-24 bg-play-yellow/10 relative overflow-hidden"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
+    >
       {/* Decorative Elements */}
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-play-yellow rounded-full mix-blend-multiply opacity-20 blur-[80px] transform translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-10 left-10 w-[300px] h-[300px] bg-play-blue rounded-full mix-blend-multiply opacity-20 blur-[80px]"></div>
@@ -188,6 +195,6 @@ export default function Testimonials() {
           })}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
