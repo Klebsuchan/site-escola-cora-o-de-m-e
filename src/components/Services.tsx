@@ -4,7 +4,7 @@ import { BookOpen, Smile, Blocks, Music, Puzzle, Heart, ShieldPlus, Shirt } from
 const services = [
   {
     title: 'Estrutura Completa',
-    description: 'Quadra de esportes com piso modular, playground, área verde com árvores frutíferas e caixa de areia.',
+    description: '2 pavimentos, área de embarque e desembarque na Coronel Chicuta, salas amplas nos fundos e uma grande área externa com quadra e playground.',
     icon: Blocks
   },
   {

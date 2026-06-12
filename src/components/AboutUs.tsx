@@ -38,6 +38,15 @@ export default function AboutUs() {
           >
             A Escola Coração de Mãe foi idealizada para ser um ambiente familiar, seguro e acolhedor. Nossa missão é continuar sendo uma extensão do seu lar, aliando excelência pedagógica, autonomia e o carinho que cada criança merece.
           </motion.p>
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+            className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto font-medium leading-relaxed mt-4"
+          >
+            Nossa estrutura é composta por 2 pavimentos com uma área projetada também para embarque e desembarque na Coronel Chicuta. Nos fundos, contamos com um espaço maior para salas de aula, além de uma ampla área externa para o lazer e desenvolvimento das crianças.
+          </motion.p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-stretch justify-center max-w-4xl mx-auto mt-16">
