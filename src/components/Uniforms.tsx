@@ -87,14 +87,14 @@ export default function Uniforms() {
                  className="w-full h-full object-cover contrast-[1.05] saturate-[1.10]"
                />
              </div>
-             <div className="col-span-2 border-4 border-white shadow-lg rounded-2xl overflow-hidden bg-gray-100 h-64">
+             <div className="col-span-2 border-4 border-white shadow-lg rounded-2xl overflow-hidden bg-gray-100 h-64 sm:h-80 md:h-[400px]">
                <video 
                  src="/uniforme-video-3.mov" 
                  autoPlay 
                  loop 
                  muted 
                  playsInline 
-                 className="w-full h-full object-cover lg:object-contain bg-black/5 contrast-[1.05] saturate-[1.10]"
+                 className="w-full h-full object-cover object-center contrast-[1.05] saturate-[1.10]"
                />
              </div>
           </motion.div>
