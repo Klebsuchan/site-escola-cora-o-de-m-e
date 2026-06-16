@@ -77,7 +77,7 @@ export default function Hero() {
                 loop 
                 muted 
                 playsInline 
-                className="w-full h-full object-cover scale-[1.02]"
+                className="w-full h-full object-cover scale-[1.02] contrast-[1.05] saturate-[1.10]"
               />
             </div>
             

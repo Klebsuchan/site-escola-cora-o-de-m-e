@@ -47,6 +47,22 @@ export default function AboutUs() {
           >
             Nossa estrutura é composta por 2 pavimentos com uma área projetada também para embarque e desembarque na Coronel Chicuta. Nos fundos, contamos com um espaço maior para salas de aula, além de uma ampla área externa para o lazer e desenvolvimento das crianças.
           </motion.p>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.4, duration: 0.5 }}
+            className="mt-12 mx-auto max-w-4xl border-8 border-white shadow-xl rounded-3xl overflow-hidden bg-gray-100"
+          >
+            <video 
+               src="/patio-quadra.mov" 
+               autoPlay 
+               loop 
+               muted 
+               playsInline 
+               className="w-full h-auto max-h-[600px] object-cover contrast-[1.05] saturate-[1.10]"
+             />
+          </motion.div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-20 items-stretch justify-center max-w-4xl mx-auto mt-16">

@@ -74,7 +74,7 @@ export default function Uniforms() {
                  loop 
                  muted 
                  playsInline 
-                 className="w-full h-full object-cover"
+                 className="w-full h-full object-cover contrast-[1.05] saturate-[1.10]"
                />
              </div>
              <div className="col-span-2 sm:col-span-1 border-4 border-white shadow-lg rounded-2xl overflow-hidden bg-gray-100 h-64">
@@ -84,7 +84,7 @@ export default function Uniforms() {
                  loop 
                  muted 
                  playsInline 
-                 className="w-full h-full object-cover"
+                 className="w-full h-full object-cover contrast-[1.05] saturate-[1.10]"
                />
              </div>
              <div className="col-span-2 border-4 border-white shadow-lg rounded-2xl overflow-hidden bg-gray-100 h-64">
@@ -94,7 +94,7 @@ export default function Uniforms() {
                  loop 
                  muted 
                  playsInline 
-                 className="w-full h-full object-cover"
+                 className="w-full h-full object-cover lg:object-contain bg-black/5 contrast-[1.05] saturate-[1.10]"
                />
              </div>
           </motion.div>
