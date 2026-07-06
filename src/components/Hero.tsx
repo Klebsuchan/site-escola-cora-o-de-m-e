@@ -54,7 +54,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 font-heading"
             >
-              <a href="https://api.whatsapp.com/send/?phone=5554991163410&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-brand-500 text-white hover:bg-brand-600 px-8 py-4 rounded-full font-bold shadow-[0_6px_0_0_#b91c1c] active:shadow-none active:translate-y-[6px] hover:translate-y-[2px] hover:shadow-[0_4px_0_0_#b91c1c] transition-all text-center text-lg flex justify-center items-center gap-2">
+              <a href="https://api.whatsapp.com/send/?phone=5554991163410&text=Ol%C3%A1%21%20%E2%9D%A4%EF%B8%8F%20Encontrei%20a%20Escola%20Cora%C3%A7%C3%A3o%20de%20M%C3%A3e%20pelo%20Google%20e%20fiquei%20encantado%28a%29%21%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20de%20pertinho%20esse%20espa%C3%A7o%20cheio%20de%20amor.%20%F0%9F%A5%B0&type=phone_number&app_absent=0" target="_blank" rel="noreferrer" className="w-full sm:w-auto bg-brand-500 text-white hover:bg-brand-600 px-8 py-4 rounded-full font-bold shadow-[0_6px_0_0_#b91c1c] active:shadow-none active:translate-y-[6px] hover:translate-y-[2px] hover:shadow-[0_4px_0_0_#b91c1c] transition-all text-center text-lg flex justify-center items-center gap-2">
                 Agendar uma Visita <span className="text-2xl">👩‍🏫</span>
               </a>
               <a href="#servicos" className="w-full sm:w-auto bg-white text-brand-600 hover:bg-brand-50 border-4 border-brand-100 px-8 py-3.5 rounded-full font-bold transition-all text-center text-lg hover:-translate-y-1 hover:shadow-lg">

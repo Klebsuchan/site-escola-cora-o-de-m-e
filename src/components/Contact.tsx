@@ -51,7 +51,7 @@ export default function Contact() {
                   <div className="ml-5 relative z-10">
                     <h4 className="text-lg font-heading font-bold text-gray-900">Conversar com a gente</h4>
                     <p className="text-gray-600 font-medium text-sm mt-1">
-                      Fixo/Whats: <a href="https://api.whatsapp.com/send/?phone=5554991163410&text&type=phone_number&app_absent=0&utm_source=ig" className="text-brand-600 hover:text-brand-500 underline font-bold" target="_blank" rel="noreferrer">(54) 99116-3410</a>
+                      Fixo/Whats: <a href="https://api.whatsapp.com/send/?phone=5554991163410&text=Ol%C3%A1%21%20%E2%9D%A4%EF%B8%8F%20Encontrei%20a%20Escola%20Cora%C3%A7%C3%A3o%20de%20M%C3%A3e%20pelo%20Google%20e%20fiquei%20encantado%28a%29%21%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20de%20pertinho%20esse%20espa%C3%A7o%20cheio%20de%20amor.%20%F0%9F%A5%B0&type=phone_number&app_absent=0" className="text-brand-600 hover:text-brand-500 underline font-bold" target="_blank" rel="noreferrer">(54) 99116-3410</a>
                     </p>
                   </div>
                 </motion.div>

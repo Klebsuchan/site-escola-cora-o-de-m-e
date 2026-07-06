@@ -89,7 +89,7 @@ export default function Header() {
           className="hidden lg:flex items-center"
         >
           <a
-            href="https://api.whatsapp.com/send/?phone=5554991163410&text&type=phone_number&app_absent=0&utm_source=ig"
+            href="https://api.whatsapp.com/send/?phone=5554991163410&text=Ol%C3%A1%21%20%E2%9D%A4%EF%B8%8F%20Encontrei%20a%20Escola%20Cora%C3%A7%C3%A3o%20de%20M%C3%A3e%20pelo%20Google%20e%20fiquei%20encantado%28a%29%21%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20de%20pertinho%20esse%20espa%C3%A7o%20cheio%20de%20amor.%20%F0%9F%A5%B0&type=phone_number&app_absent=0"
             target="_blank"
             rel="noreferrer"
             className="bg-white text-gray-900 hover:bg-brand-50 hover:text-brand-600 px-6 py-2.5 rounded-full font-heading font-bold shadow-[0_4px_0_0_#991b1b] hover:shadow-[0_2px_0_0_#991b1b] active:shadow-none active:translate-y-[4px] hover:translate-y-[2px] transition-all flex items-center gap-2 border-2 border-transparent whitespace-nowrap"
@@ -210,7 +210,7 @@ export default function Header() {
 
             <div className="mt-auto pt-8 flex flex-col space-y-4">
               <a
-                href="https://api.whatsapp.com/send/?phone=5554991163410&text&type=phone_number&app_absent=0&utm_source=ig"
+                href="https://api.whatsapp.com/send/?phone=5554991163410&text=Ol%C3%A1%21%20%E2%9D%A4%EF%B8%8F%20Encontrei%20a%20Escola%20Cora%C3%A7%C3%A3o%20de%20M%C3%A3e%20pelo%20Google%20e%20fiquei%20encantado%28a%29%21%20Gostaria%20de%20agendar%20uma%20visita%20para%20conhecer%20de%20pertinho%20esse%20espa%C3%A7o%20cheio%20de%20amor.%20%F0%9F%A5%B0&type=phone_number&app_absent=0"
                 target="_blank"
                 rel="noreferrer"
                 onClick={closeMenu}

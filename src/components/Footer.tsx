@@ -119,9 +119,19 @@ export default function Footer() {
               <button onClick={() => setSelectedPolicy(policies.privacy)} className="hover:text-brand-300 transition-colors cursor-pointer">Política de Privacidade</button>
               <button onClick={() => setSelectedPolicy(policies.cookies)} className="hover:text-brand-300 transition-colors cursor-pointer">Política de Cookies</button>
             </div>
-            <p className="flex items-center">
-              Feito com <span className="mx-2 text-xl text-red-500 animate-pulse">❤️</span> em Passo Fundo
-            </p>
+            <div className="flex flex-col items-center md:items-end gap-1">
+              <p className="flex items-center">
+                Feito com <span className="mx-2 text-xl text-red-500 animate-pulse">❤️</span> em Passo Fundo
+              </p>
+              <a 
+                href="https://portfolio-braian-three.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="hover:text-white transition-colors underline decoration-dotted underline-offset-4"
+              >
+                Desenvolvedor Braian Kmdc
+              </a>
+            </div>
           </div>
         </motion.div>
       </div>
