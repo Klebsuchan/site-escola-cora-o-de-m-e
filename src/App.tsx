@@ -34,7 +34,7 @@ export default function App() {
         <Methodology />
 
         {/* Playful About Section */}
-        <section id="sobre" className="py-24 relative overflow-hidden bg-gradient-to-r from-gray-900 to-red-900 rounded-[3rem] my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-16 shadow-[0_8px_30px_rgb(0,0,0,0.2)]">
+        <section id="sobre" className="py-24 relative overflow-hidden bg-gradient-to-r from-gray-900 to-red-900 rounded-[3rem] my-8 mx-4 sm:mx-8 md:mx-12 lg:mx-8 shadow-[0_8px_30px_rgb(0,0,0,0.2)]">
             {/* Soft decorative shapes */}
             <div className="absolute top-10 left-10 w-20 h-20 bg-red-400 rounded-full mix-blend-multiply opacity-20 blur-xl"></div>
             <div className="absolute bottom-10 right-10 w-32 h-32 bg-red-600 rounded-full mix-blend-multiply opacity-20 blur-xl"></div>
@@ -45,7 +45,7 @@ export default function App() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10"
+              className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10"
             >
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
                 <div className="text-center lg:text-left">

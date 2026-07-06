@@ -13,7 +13,7 @@ export default function Hero() {
       <svg className="absolute top-32 lg:top-40 right-10 lg:right-[45%] w-16 h-16 text-play-blue opacity-40 animate-bounce" style={{ animationDuration: '3.5s' }} viewBox="0 0 100 100" fill="currentColor"><circle cx="50" cy="50" r="30" /></svg>
       <svg className="absolute bottom-40 right-20 w-20 h-20 text-play-green opacity-30 animate-pulse" viewBox="0 0 100 100" fill="currentColor"><rect x="25" y="25" width="50" height="50" rx="10" transform="rotate(45 50 50)" /></svg>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-8">
           <motion.div 
             initial={{ opacity: 0, x: -30 }}

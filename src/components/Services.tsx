@@ -96,7 +96,7 @@ export default function Services() {
         </svg>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-8">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

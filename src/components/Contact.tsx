@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section id="contato" className="py-24 bg-play-green/10 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-[40vw] h-[40vw] bg-play-green rounded-full mix-blend-multiply opacity-20 blur-[80px] transform translate-x-1/2 -translate-y-1/2"></div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="bg-white rounded-[3rem] p-6 sm:p-8 md:p-12 border-[6px] border-white shadow-xl relative overflow-hidden">
           {/* Subtle playful shapes */}
           <div className="absolute top-10 left-10 w-20 h-20 bg-play-yellow rounded-full mix-blend-multiply opacity-30 blur-xl"></div>

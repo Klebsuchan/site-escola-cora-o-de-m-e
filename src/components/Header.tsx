@@ -21,7 +21,7 @@ export default function Header() {
   return (
     <div className="fixed top-2 sm:top-4 w-full z-50 px-2 sm:px-6 flex justify-center pointer-events-none">
       <header
-        className={`pointer-events-auto bg-gradient-to-r from-red-900 to-gray-900 text-white backdrop-blur-xl border border-gray-800 transition-all duration-300 w-full max-w-7xl mx-auto rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.2)] ${scrolled ? "py-1 sm:py-2 px-4" : "py-2 sm:py-3 px-6"} flex items-center justify-between`}
+        className={`pointer-events-auto bg-gradient-to-r from-red-900 to-gray-900 text-white backdrop-blur-xl border border-gray-800 transition-all duration-300 w-full max-w-[1800px] mx-auto rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.2)] ${scrolled ? "py-1 sm:py-2 px-4" : "py-2 sm:py-3 px-6"} flex items-center justify-between`}
       >
         <motion.div
           initial={{ opacity: 0, x: -20 }}

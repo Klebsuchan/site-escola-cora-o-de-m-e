@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-red-500 rounded-full mix-blend-multiply opacity-20 blur-3xl transform translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-red-700 rounded-full mix-blend-multiply opacity-20 blur-3xl transform -translate-x-1/2 translate-y-1/2"></div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-[1800px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 border-b-2 border-white/10 pb-12 md:pb-16 mb-8 md:mb-10 text-center md:text-left">
           
           <motion.div 
