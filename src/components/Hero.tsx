@@ -21,14 +21,21 @@ export default function Hero() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="lg:w-1/2 text-center lg:text-left z-20"
           >
-            <motion.div 
-               initial={{ scale: 0.9, opacity: 0 }}
-               animate={{ scale: 1, opacity: 1 }}
-               transition={{ duration: 0.6 }}
-               className="mb-6 inline-flex items-center bg-white text-brand-600 px-5 py-2 rounded-full text-sm font-heading font-bold shadow-[0_4px_0_0_#fecaca] border-2 border-brand-100 hover:translate-y-1 hover:shadow-none transition-all"
-            >
-              <span className="text-xl mr-2 animate-wiggle">🧸</span> Aprender brincando é mais legal!
-            </motion.div>
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 mb-4">
+              <a 
+                href="#galeria"
+                className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 via-brand-500 to-pink-500 text-white px-4 py-1.5 rounded-full text-xs sm:text-sm font-heading font-black shadow-md hover:scale-105 active:scale-95 transition-all"
+              >
+                <span className="text-base animate-bounce">🎈</span>
+                <span>Semana da Criança no ar!</span>
+                <span className="bg-white/20 text-white text-[11px] px-2 py-0.5 rounded-full uppercase">Novas Fotos</span>
+              </a>
+              <div 
+                className="inline-flex items-center bg-white text-brand-600 px-4 py-1.5 rounded-full text-xs sm:text-sm font-heading font-bold shadow-sm border border-brand-100"
+              >
+                <span className="mr-1.5">🧸</span> Aprender brincando é mais legal!
+              </div>
+            </div>
             <motion.h1 
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

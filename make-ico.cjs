@@ -1,9 +1,14 @@
-const pngToIco = require('png-to-ico');
+const toIco = require('to-ico');
 const fs = require('fs');
 
-pngToIco('public/favicon-48.png')
-  .then(buf => {
-    fs.writeFileSync('public/favicon.ico', buf);
+async function run() {
+  try {
+    const buf = fs.readFileSync('public/favicon-512.png');
+    const icoBuf = await toIco(buf);
+    fs.writeFileSync('public/favicon.ico', icoBuf);
     console.log('Successfully created favicon.ico');
-  })
-  .catch(console.error);
+  } catch (err) {
+    console.error(err);
+  }
+}
+run();
